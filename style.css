@@ -1,0 +1,19 @@
+
+@font-face {
+	font-family: 'Lato';
+	src: url('Lato-Light.ttf');
+	font-weight: 300;
+}
+
+html, body {
+	width: 100%;
+	margin: 0;
+}
+
+body {
+	background-image: url('background.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	font-family: 'Lato', sans-serif;
+}
