@@ -11,5 +11,8 @@ $(document).ready(function() {
 	resize();
 	setTimeout(function() {
 		$('section#main h1').fadeIn('fast');
+		setTimeout(function() {
+			$('section#main h2').fadeIn('fast');
+		}, 500);
 	}, 1000);
 });
