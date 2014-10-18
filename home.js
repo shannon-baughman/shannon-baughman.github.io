@@ -20,6 +20,6 @@ $(document).ready(function() {
 	}, 1000);
 });
 
-$(document).scroll() {
+$(document).scroll(function() {
 	$('body').css('background-position', ($(window).scrollTop() / 2) + 'px center');
-}
+});
