@@ -13,6 +13,9 @@ $(document).ready(function() {
 		$('section#main h1').fadeIn('fast');
 		setTimeout(function() {
 			$('section#main h2').fadeIn('fast');
+			setTimeout(function() {
+				$('section#main span').fadeIn('fast');
+			}, 1000);
 		}, 500);
 	}, 1000);
 });
