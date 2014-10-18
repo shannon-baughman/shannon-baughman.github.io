@@ -51,9 +51,9 @@ span {
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 90%;
+	top: 95%;
 	color: rgba(255, 255, 255, 0.7);
 	width: 100%;
-	font-size: 2em;
+	font-size: 20px;
 	text-align: center;
 }
