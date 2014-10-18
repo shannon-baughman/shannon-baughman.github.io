@@ -25,6 +25,7 @@ section#main {
 }
 
 section#main h1 {
+	display: none;
 	color: #fff;
 	margin: 0;
 	padding: 0;

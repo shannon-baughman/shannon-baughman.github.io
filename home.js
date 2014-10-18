@@ -9,4 +9,7 @@ $(window).resize(resize);
 
 $(document).ready(function() {
 	resize();
+	setTimeout(function() {
+		$('section#main h1').fadeIn('fast');
+	}, 1000);
 });
