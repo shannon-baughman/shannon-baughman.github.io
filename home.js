@@ -1,6 +1,6 @@
 
 function resize() {
-	$('body').css('font-size', $(window).width() / 100);
+	$('body').css('font-size', $(window).width() / 75);
 	var h1 = $('section#main h1');
 	h1.css('padding-top', $(window).height() / 2 - h1.height());
 }
