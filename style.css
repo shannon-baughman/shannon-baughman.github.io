@@ -14,7 +14,7 @@ html, body {
 body {
 	background-image: url('background.jpg');
 	background-size: cover;
-	background-position: 0 center;
+	background-position: center 0;
 	background-attachment: fixed;
 	font-family: 'Fairview', sans-serif;
 }

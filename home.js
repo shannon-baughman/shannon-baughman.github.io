@@ -21,5 +21,5 @@ $(document).ready(function() {
 });
 
 $(document).scroll(function() {
-	$('body').css('background-position', ($(window).scrollTop() / 2) + 'px center');
+	$('body').css('background-position', -($(window).scrollTop() / 2) + 'px center');
 });
