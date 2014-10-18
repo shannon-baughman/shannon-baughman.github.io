@@ -14,7 +14,7 @@ $(document).ready(function() {
 		setTimeout(function() {
 			$('section#main h2').fadeIn('fast');
 			setTimeout(function() {
-				$('section#main span').fadeIn('fast');
+				$('section#main>span').fadeIn('fast');
 			}, 1000);
 		}, 500);
 	}, 1000);
