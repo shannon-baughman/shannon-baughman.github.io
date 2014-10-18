@@ -19,3 +19,7 @@ $(document).ready(function() {
 		}, 500);
 	}, 1000);
 });
+
+$(document).scroll() {
+	$('body').css('background-position', ($(window).scrollTop() / 2) + 'px center');
+}
