@@ -8,6 +8,7 @@ function resize() {
 $(window).resize(resize);
 
 $(document).ready(function() {
+	resize();
 	setTimeout(function() {
 		resize();
 		$('section#main h1').fadeIn('fast');
