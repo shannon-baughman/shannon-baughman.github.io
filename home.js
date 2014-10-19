@@ -8,8 +8,8 @@ function resize() {
 $(window).resize(resize);
 
 $(document).ready(function() {
-	resize();
 	setTimeout(function() {
+		resize();
 		$('section#main h1').fadeIn('fast');
 		setTimeout(function() {
 			$('section#main h2').fadeIn('fast');
