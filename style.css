@@ -33,7 +33,7 @@ section#main {
 
 section#main h1 {
 	display: none;
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.75);
 	padding: 0;
 	margin: 0;
 	font-family: 'Fairview', sans-serif;
@@ -44,7 +44,7 @@ section#main h1 {
 
 section#main h2 {
 	display: none;
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.75);
 	padding: 0;
 	margin: 0;
 	font-family: 'Fairview', sans-serif;
@@ -59,7 +59,7 @@ section#main>span {
 	left: 0;
 	right: 0;
 	top: calc(100% - 60px);
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.75);
 	width: 100%;
 	font-size: 40px;
 	text-align: center;
