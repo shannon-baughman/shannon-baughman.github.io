@@ -27,5 +27,6 @@ $(document).ready(function() {
 });
 
 $(document).scroll(function() {
+	$('section#main h1').css('padding-top', $(window).height() / 2 - h1.height() + $(window).scrollTop() / 2);
 	$('section#main *').css('opacity', 1 - ($(window).scrollTop() / $(window).height()));
 });
