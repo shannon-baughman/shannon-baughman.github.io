@@ -27,6 +27,5 @@ $(document).ready(function() {
 });
 
 $(document).scroll(function() {
-	$('body').css('background-position', 'center ' + -($(window).scrollTop() / 2) + 'px');
 	$('section#main *').css('opacity', 1 - ($(window).scrollTop() / $(window).height()));
 });
