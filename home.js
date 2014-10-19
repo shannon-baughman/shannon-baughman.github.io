@@ -18,6 +18,8 @@ $(document).ready(function() {
 			}, 1000);
 		}, 500);
 	}, 1000);
+	$('section#main span span').click(function() {
+	});
 });
 
 $(document).scroll(function() {
