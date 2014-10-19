@@ -30,7 +30,7 @@ span#number {
 	display: none;
 	top: 0.5em;
 	left: 1em;
-	color: rgba(0, 0, 0, 0.75);
+	color: rgba(0, 0, 0, 0.5);
 	font-size: 1.5em;
 	font-weight: 300;
 	z-index: 100;
@@ -41,7 +41,7 @@ span#email {
 	display: none;
 	top: 0.5em;
 	right: 1em;
-	color: rgba(0, 0, 0, 0.75);
+	color: rgba(0, 0, 0, 0.5);
 	font-size: 1.5em;
 	font-weight: 300;
 	z-index: 100;
