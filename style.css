@@ -57,6 +57,7 @@ section#main>span {
 	width: 100%;
 	font-size: 40px;
 	text-align: center;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 section#main span span {
