@@ -47,6 +47,11 @@ span#email {
 	z-index: 100;
 }
 
+span#email a {
+	color: #fff;
+	text-decoration: none;
+}
+
 section#main {
 	width: 100%;
 	height: 100%;
