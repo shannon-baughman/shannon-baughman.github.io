@@ -97,7 +97,7 @@ section#content {
 	background-color: rgba(0, 0, 0, 0.75);
 	width: 70%;
 	padding: 3.75em 15%;
-	padding-bottom: 7.5em;
+	padding-bottom: 5em;
 	margin: 0;
 }
 
@@ -117,6 +117,15 @@ section#content h4 {
 	font-size: 1em;
 	font-weight: 300;
 	text-align: center;
+}
+
+section#content img {
+	display: block;
+	width: 60%;
+	padding: 0;
+	margin: 0 auto;
+	border: 10px solid #fff;
+	opacity: 0.5;
 }
 
 section#content p {
