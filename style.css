@@ -128,17 +128,16 @@ section#content img {
 }
 
 section#content p {
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.75);
 	padding: 0.5em 0;
 	margin: 0.5em 0;
 	font-size: 1.5em;
 	font-weight: 300;
 	text-align: center;
-	opacity: 0.75;
 }
 
 section#content h2 {
-	color: rgba(255, 255, 255, 0.75);
+	color: rgba(255, 255, 255, 0.875);
 	padding: 0.125em 0;
 	margin: 0;
 	font-size: 2em;
