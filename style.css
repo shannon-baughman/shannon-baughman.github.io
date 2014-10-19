@@ -103,3 +103,7 @@ section#content h2 {
 	line-height: 0.875em;
 	text-align: center;
 }
+
+section#content h2 span {
+	font-size: 1.125em;
+}
