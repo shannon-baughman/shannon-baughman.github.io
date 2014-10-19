@@ -1,13 +1,7 @@
 
 @font-face {
-	font-family: 'Fairview';
-	src: url('Fairview.otf');
-	font-weight: 400;
-}
-
-@font-face {
-	font-family: 'Cylburn';
-	src: url('Cylburn.ttf');
+	font-family: 'Wolf in the City';
+	src: url('Wolf in the City.ttf');
 	font-weight: 400;
 }
 
@@ -42,7 +36,7 @@ section#main h1 {
 	color: rgba(0, 0, 0, 0.75);
 	padding: 0;
 	margin: 0;
-	font-family: 'Fairview', sans-serif;
+	font-family: 'Wolf in the City', cursive;
 	font-size: 10em;
 	font-weight: 400;
 	text-align: center;
@@ -53,7 +47,7 @@ section#main h2 {
 	color: rgba(0, 0, 0, 0.75);
 	padding: 0;
 	margin: 0;
-	font-family: 'Fairview', sans-serif;
+	font-family: 'Wolf in the City', cursive;
 	font-size: 3em;
 	font-weight: 400;
 	text-align: center;
@@ -88,8 +82,8 @@ section#content h1 {
 	color: #2980b9;
 	padding: 0;
 	margin: 0;
-	font-family: 'Cylburn', cursive;
-	font-size: 1.5em;
+	font-family: 'Wolf in the City', cursive;
+	font-size: 3em;
 	font-weight: 400;
 	text-align: center;
 }
@@ -107,7 +101,7 @@ section#content h2 {
 	color: #2980b9;
 	padding: 0.125em 0;
 	margin: 0;
-	font-family: 'Cylburn', cursive;
+	font-family: 'Wolf in the City', cursive;
 	font-size: 4em;
 	font-weight: 400;
 	line-height: 0.75em;
