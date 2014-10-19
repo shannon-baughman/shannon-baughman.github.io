@@ -65,8 +65,10 @@ section#main span span {
 }
 
 section#content {
+	background-color: #fff;
 	width: 60%;
 	padding: 2.5em 20%;
 	margin: 0;
-	background-color: #fff;
+	border: none;
+	border-top: 5px solid #8e44ad;
 }
