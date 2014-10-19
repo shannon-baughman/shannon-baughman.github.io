@@ -27,24 +27,22 @@ section#main {
 
 section#main h1 {
 	display: none;
-	color: #fff;
+	color: rgba(0, 0, 0, 0.5);
 	padding: 0;
 	margin: 0;
 	font-size: 10em;
 	font-weight: 400;
 	text-align: center;
-	text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 section#main h2 {
 	display: none;
-	color: #fff;
+	color: rgba(0, 0, 0, 0.5);
 	padding: 0;
 	margin: 0;
 	font-size: 3em;
 	font-weight: 400;
 	text-align: center;
-	text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 section#main>span {
@@ -53,11 +51,10 @@ section#main>span {
 	left: 0;
 	right: 0;
 	top: calc(100% - 60px);
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(0, 0, 0, 0.5);
 	width: 100%;
 	font-size: 40px;
 	text-align: center;
-	text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 section#main span span {
