@@ -7,8 +7,8 @@
 
 @font-face {
 	font-family: 'Lato';
-	src: url('Lato-Light.ttf');
-	font-weight: 300;
+	src: url('Lato-Regular.ttf');
+	font-weight: 400;
 }
 
 html, body {
@@ -81,6 +81,6 @@ section#content {
 section#content p {
 	color: #2c3e50;
 	font-size: 2em;
-	font-weight: 300;
+	font-weight: 400;
 	text-align: center;
 }
