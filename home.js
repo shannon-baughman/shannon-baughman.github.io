@@ -24,7 +24,7 @@ $(document).ready(function() {
 						$('span#number, span#email').fadeOut('fast', function() {
 							$('span#number, span#email').css({
 								'top': 'initial',
-								'bottom': '0.5em'
+								'bottom': '1em'
 							});
 							$('span#number, span#email').fadeIn('fast');
 						});
@@ -61,7 +61,7 @@ $(document).scroll(function() {
 			$('span#number, span#email').fadeOut('fast', function() {
 				$('span#number, span#email').css({
 					'top': 'initial',
-					'bottom': '0.5em'
+					'bottom': '1em'
 				});
 				$('span#number, span#email').fadeIn('fast');
 			});
