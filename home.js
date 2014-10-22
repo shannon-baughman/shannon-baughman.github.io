@@ -19,7 +19,7 @@ $(document).ready(function() {
 			setTimeout(function() {
 				$('span#number, span#email, span#header').fadeIn('fast');
 				$('section#main>span').fadeIn('fast');
-				if ($(window).scrollTop() >= $('section#content').offset().top) {
+				if ($(window).scrollTop() >= $('section#content').offset().top || $(window).scrollTop() + $(window).height() >= $('section#main').height() + $('section#content').height() - 50) {
 					if (state == 0) {
 						$('span#number, span#email').fadeOut('fast', function() {
 							$('span#number, span#email').css({
