@@ -54,8 +54,10 @@ $(document).ready(function() {
 });
 
 $(document).scroll(function() {
-	$('section#main h1').css('padding-top', $(window).height() / 2 - $('section#main h1').height() + $(window).scrollTop() / 2);
-	$('section#main *').css('opacity', 1 - ($(window).scrollTop() / $(window).height()));
+	if (!navigator.userAgent.match(/(iPad|iPhone|iPod)/g)) {
+		$('section#main h1').css('padding-top', $(window).height() / 2 - $('section#main h1').height() + $(window).scrollTop() / 2);
+		$('section#main *').css('opacity', 1 - ($(window).scrollTop() / $(window).height()));
+	}
 	if ($(window).scrollTop() >= $('section#content').offset().top || $(window).scrollTop() + $(window).height() >= $('section#main').height() + $('section#content').height() - $(window).height() * 0.25) {
 		if (state == 0) {
 			$('span#number, span#email').fadeOut('fast', function() {
