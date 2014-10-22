@@ -21,24 +21,24 @@ $(document).ready(function() {
 				$('section#main>span').fadeIn('fast');
 				if ($(window).scrollTop() >= $('section#content').offset().top) {
 					if (state == 0) {
-						$('span#number, span#email').hide('fast', function() {
+						$('span#number, span#email').fadeOut('fast', function() {
 							$('span#number, span#email').css({
 								'top': 'initial',
 								'bottom': '0.5em'
 							});
-							$('span#number, span#email').show('fast');
+							$('span#number, span#email').fadeIn('fast');
 						});
 						state = 1;
 					}
 				}
 				else {
 					if (state == 1) {
-						$('span#number, span#email').hide('fast', function() {
+						$('span#number, span#email').fadeOut('fast', function() {
 							$('span#number, span#email').css({
 								'top': '',
 								'bottom': ''
 							});
-							$('span#number, span#email').show('fast');
+							$('span#number, span#email').fadeIn('fast');
 						});
 						state = 0;
 					}
@@ -58,24 +58,24 @@ $(document).scroll(function() {
 	$('section#main *').css('opacity', 1 - ($(window).scrollTop() / $(window).height()));
 	if ($(window).scrollTop() >= $('section#content').offset().top) {
 		if (state == 0) {
-			$('span#number, span#email').hide('fast', function() {
+			$('span#number, span#email').fadeOut('fast', function() {
 				$('span#number, span#email').css({
 					'top': 'initial',
 					'bottom': '0.5em'
 				});
-				$('span#number, span#email').show('fast');
+				$('span#number, span#email').fadeIn('fast');
 			});
 			state = 1;
 		}
 	}
 	else {
 		if (state == 1) {
-			$('span#number, span#email').hide('fast', function() {
+			$('span#number, span#email').fadeOut('fast', function() {
 				$('span#number, span#email').css({
 					'top': '',
 					'bottom': ''
 				});
-				$('span#number, span#email').show('fast');
+				$('span#number, span#email').fadeIn('fast');
 			});
 			state = 0;
 		}
