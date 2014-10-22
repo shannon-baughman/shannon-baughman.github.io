@@ -23,7 +23,6 @@ $(document).ready(function() {
 					if (state == 0) {
 						$('span#number, span#email').hide('fast', function() {
 							$('span#number, span#email').css({
-								'position': 'absolute',
 								'top': 'initial',
 								'bottom': '0.5em'
 							});
@@ -36,7 +35,6 @@ $(document).ready(function() {
 					if (state == 1) {
 						$('span#number, span#email').hide('fast', function() {
 							$('span#number, span#email').css({
-								'position': '',
 								'top': '',
 								'bottom': ''
 							});
